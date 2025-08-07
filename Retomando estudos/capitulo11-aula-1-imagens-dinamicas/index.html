@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos</p>
+
+    <picture>
+        <source media="(max-width: 700px) and (min-height: 700px)"  srcset="imagens/imagem-alta.png" sizes="image/png">
+        <source media="(min-width: 700px) and (max-height: 700px)" srcset="imagens/imagem-larga.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="Imagem Flexível">
+    </picture>
+    
+    
+    
+    <h1>Aprendendo a adicionar audios</h1>
+    <audio preload="metadata" controls>
+        <source src="midia/Estrella - House of the Gipsies.mp3" type="audio/mpeg"> 
+        <!--<source src="midia/Estrella - House of the Gipsies.ogg" type="audio/ogg"> outros formatos de arquivo que você tiver disponível-->
+        <p>Infelizmente seu navegador não é compativel com o audio<a href="midia/Estrella - House of the Gipsies.mp3">Clique aqui para baixar o audio</a></p>
+    </audio>
+    
+
+</body>
+</html>

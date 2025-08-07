@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*
+    Tudo o que for id= em HTML em CSS é #
+    Tudo o que for class= em HTML em CSS é .
+
+*/
+body{
+    background-image: linear-gradient(to right, #F4DFC0, #beae96);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+h1{
+    color: #F2B53B;
+
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #F2B53B;
+    color: white;
+}
+
+.basico{
+    color: rgb(56, 137, 56);
+}
+.intermediario{
+    color: rgb(134, 137, 56);
+}
+.avancado{
+    color: rgb(137, 56, 56);
+}
+
+h2{
+    color: #ce9c37;
+
+}
