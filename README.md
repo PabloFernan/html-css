@@ -1,4 +1,5 @@
 # html-css
 Curso de HTML e CSS do CursoemVideo
 
-Estou praticando a criar sites e agora vou começar a gerenciar de forma mais ativa meus repositórios!
+Este repositório reúne todos os meus exercícios, projetos e anotações do curso de HTML5 e CSS3.
+Estou utilizando este espaço para praticar, organizar meus arquivos e aprender a gerenciar melhor meus repositórios com Git e GitHub.
